@@ -1,1 +1,46 @@
-body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+body {
+  font-family: Arial, sans-serif;
+  background: #fdf6f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#dashboard {
+  margin-top: 30px;
+  background: #e3fce1;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+#entriesList {
+  margin-top: 20px;
+}

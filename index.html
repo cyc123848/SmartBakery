@@ -1,10 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>SmartBakeryPro</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css"/>
+  <title>SmartBakery Pro</title>
 </head>
 <body>
-  <h1>SmartBakeryPro Phase 2</h1>
-  <p>Dashboard coming soon...</p>
+  <div class="container">
+    <h1>SmartBakery Pro 🍞</h1>
+    <form id="entryForm">
+      <input type="text" id="product" placeholder="Product Name" required />
+      <input type="number" id="produced" placeholder="Produced Quantity" required />
+      <input type="number" id="sold" placeholder="Sold Quantity" required />
+      <input type="number" id="price" placeholder="Price per Item" required />
+      <button type="submit">Add Entry</button>
+    </form>
+
+    <div id="dashboard">
+      <h2>📊 Dashboard</h2>
+      <p>Total Produced: <span id="totalProduced">0</span></p>
+      <p>Total Sold: <span id="totalSold">0</span></p>
+      <p>Total Remaining: <span id="totalRemaining">0</span></p>
+      <p>Total Revenue: <span id="totalRevenue">0</span> TZS</p>
+    </div>
+
+    <div id="entriesList"></div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
