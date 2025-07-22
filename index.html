@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartBakery Pro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <h1>SmartBakery Pro</h1>
+
+  <section id="entry-form">
+    <h2>Add Bakery Entry</h2>
+    <input type="text" id="product" placeholder="Product name" required>
+    <input type="number" id="produced" placeholder="Quantity produced" required>
+    <input type="number" id="sold" placeholder="Quantity sold" required>
+    <input type="number" id="price" placeholder="Price per unit (TZS)" required>
+    <button onclick="addEntry()">Add Entry</button>
+  </section>
+
+  <section id="dashboard">
+    <h2>Dashboard</h2>
+    <div id="totals"></div>
+    <canvas id="chart" width="300" height="200"></canvas>
+  </section>
+</body>
+</html>
