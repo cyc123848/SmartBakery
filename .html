@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bakery Budget Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>Bakery Budget Tracker</h1>
+
+  <form id="entryForm">
+    <input type="text" id="item" placeholder="Item (e.g. Donut)" required />
+    <input type="number" id="produced" placeholder="Produced" required />
+    <input type="number" id="sold" placeholder="Sold" required />
+    <input type="number" id="cost" placeholder="Cost per item" required />
+    <input type="number" id="price" placeholder="Selling price" required />
+    <button type="submit">Add Entry</button>
+  </form>
+
+  <h2>Dashboard</h2>
+  <div id="dashboard"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
