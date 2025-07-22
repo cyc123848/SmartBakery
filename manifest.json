@@ -1,0 +1,15 @@
+{
+  "name": "SmartBakery Pro",
+  "short_name": "BakeryPro",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Bakery management tool for tracking products and revenue.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ]
+}
