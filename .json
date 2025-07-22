@@ -1,0 +1,15 @@
+{
+  "name": "Bakery Budget Tracker",
+  "short_name": "BakeryTracker",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fffefc",
+  "theme_color": "#5c4d2d",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2438/2438071.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
